@@ -15,13 +15,6 @@ export const Default: Story = {
   args: {
     children: "Your email address",
   },
-  render: (args) => {
-    return (
-      <Label {...args}>
-        Your email address
-      </Label>
-    );
-  },
 };
 
 export const VariantDisabled: Story = {
