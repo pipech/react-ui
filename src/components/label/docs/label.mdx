@@ -1,0 +1,26 @@
+import { Canvas, Meta, Primary, Controls, ArgTypes } from '@storybook/blocks';
+import * as LabelStories from '../stories/label.stories';
+import { default as LabelAnatomy } from './anatomy-label.excalidraw.svg'
+
+# Label
+<Meta of={LabelStories} />
+
+<Primary />
+
+<Controls />
+
+## Anatomy
+
+<LabelAnatomy />
+
+## Stories
+
+### Variant
+
+#### Size
+
+<Canvas of={LabelStories.VariantSize} />
+
+#### Disabled
+
+<Canvas of={LabelStories.VariantDisabled} />
